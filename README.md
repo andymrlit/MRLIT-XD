@@ -1,6 +1,6 @@
 
 <img 
-src="https://i.imgur.com/KEL7kmY.jpeg" alt="GIF" width="190" height="190"/>
+src="https://i.imgur.com/M8S9JjL.jpeg" alt="GIF" width="190" height="190"/>
 </p>
 
 </div>

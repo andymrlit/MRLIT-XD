@@ -49,16 +49,16 @@ MRLIT-XD - Simple whatsapp Multi Device bot created by Mrlit Andy 😙
 ***
 * Join Group For Help
      <br>
-<a href="[https://chat.whatsapp.com/KHvcGD7aEUo8gPocJsYXZe](https://chat.whatsapp.com/IxLFcEVfOaJHTBOSXK1T0U)"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Group-black?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="[https://chat.whatsapp.com/LZojfM2mEFL9ibw9r7Yn0K]"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Group-black?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ***
-* EXTERNAL-PLUGINS
+* EXTERNAL-PLUGINS (coming soon)
      <br>
-<a href='https://github.com/sataniceypz/IZUMI-EXPLUGINS' target="_blank"><img alt='Izumi-xd' src='https://img.shields.io/badge/EXPLUGIN-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=black'/></a>
+<a href='coming soon' target="_blank"><img alt='MRLIT-xd' src='https://img.shields.io/badge/COMING SOON-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=black'/></a>
 
 #### THANKS TO
-- [ Louis-XD❤️](https://github.com/Louis-XD) <br>
+- [ Zwing Maxy❤️](https://github.com/MaxyHacker) <br>

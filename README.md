@@ -19,18 +19,18 @@ MRLIT-XD - Simple whatsapp Multi Device bot created by Mrlit Andy 😙
 
 1. Fork This Repository
    <br>
-<a href='https://github.com/andymrlit/MRLIT-XDfork' target="_blank"><img alt='FORK' src='https://img.shields.io/badge/fork-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://github.com/andymrlit/MRLIT-XD/fork' target="_blank"><img alt='FORK' src='https://img.shields.io/badge/fork-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 2. Get Session I'D.
 
 ### QR 1
 .
     <br>
-<a href='https://izumi-7s2v.onrender.com/' target="_blank"><img alt='SCAN QR ' src='https://img.shields.io/badge/get_session-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://bwakalemd-0f433deeafed.herokuapp.com/qr' target="_blank"><img alt='SCAN QR ' src='https://img.shields.io/badge/get_session-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 ### QR 2
 .
     <br>
-<a href='https://izumi-7s2v.onrender.com/' target="_blank"><img alt='SCAN QR ' src='https://img.shields.io/badge/get_session-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://bwakalemd-0f433deeafed.herokuapp.com/pair' target="_blank"><img alt='PAIRING CODE ' src='https://img.shields.io/badge/get_session-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 ***
 ### Deploy
@@ -49,7 +49,7 @@ MRLIT-XD - Simple whatsapp Multi Device bot created by Mrlit Andy 😙
 ***
 * Join Group For Help
      <br>
-<a href="https://chat.whatsapp.com/KHvcGD7aEUo8gPocJsYXZe"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Group-black?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="[https://chat.whatsapp.com/KHvcGD7aEUo8gPocJsYXZe](https://chat.whatsapp.com/IxLFcEVfOaJHTBOSXK1T0U)"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Group-black?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
 

@@ -8,7 +8,7 @@ const toBool = (x) => x == "true";
 DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 let HANDLER = "false";
 module.exports = {
-  ANTILINK: toBool(process.env.ANTI_LINK) || false,
+  ANTILINK: toBool(process.env.ANTI_LINK) || true,
   LOGS: toBool(process.env.LOGS) || true,
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
   SESSION_ID:process.env.SESSION_ID || " ",
@@ -17,8 +17,8 @@ module.exports = {
   BRANCH: "main",
   WARN_COUNT: 3,
   STICKER_DATA: process.env.STICKER_DATA || "ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ;ᴀɴᴅʏ",
-  BOT_INFO: process.env.BOT_INFO || "𝙈𝙍𝙇𝙄𝙏-𝗫𝗗;𝘼𝙉𝘿𝙔𝙇𝙄𝙏;https://i.imgur.com/KEL7kmY.jpeg",
-  AUDIO_DATA: process.env.AUDIO_DATA || "𝐄𝐘𝐏𝐙;𝗜𝗭𝗨𝗠𝗜 𝗫𝗗;https://telegra.ph/file/c092ab6684953575dac78.jpg",
+  BOT_INFO: process.env.BOT_INFO || "𝙈𝙍𝙇𝙄𝙏-𝗫𝗗;𝘼𝙉𝘿𝙔𝙇𝙄𝙏;https://i.imgur.com/M8S9JjL.jpeg",
+  AUDIO_DATA: process.env.AUDIO_DATA || "ANDY;MRLIT-XD;https://i.imgur.com/M8S9JjL.jpeg",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
   CAPTION: process.env.CAPTION || "ᴛʜɪs ʙᴏᴛ ᴡᴀs ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀɴᴅʏ ᴍʀʟɪᴛ",
   WORK_TYPE: process.env.WORK_TYPE || "private",
@@ -42,6 +42,6 @@ module.exports = {
         }),
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
-  SUDO: process.env.SUDO || "0",
+  SUDO: process.env.SUDO || "",
   IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
 };

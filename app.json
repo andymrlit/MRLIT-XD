@@ -1,7 +1,7 @@
 {
   "name": "MRLIT-xd",
   "description": "MRLIT-XD Multi Device whatsapp bot",
-  "logo": "https://i.imgur.com/Uc0uIkO.jpeg",
+  "logo": "https://i.imgur.com/M8S9JjL.jpeg",
   "keywords": ["whatsapp"],
   "repository": "https://github.com/andymrlit/MRLIT-XD",
   "website": "https://github.com/andymrlit/MRLIT-XD",
@@ -16,10 +16,15 @@
       "description": "need to show message logs ?",
       "required": false
      },
+     "ANTILINK": {
+       "description": "remove user who send link in grp",
+       "value": "true",
+       "required": false
+     },
      "AUDIO_DATA": {
       "description": "audio data , title;artist;image url",
       "required": "false",
-      "value": "𝗔𝗡𝗗𝗬𝗟𝗜𝗧 ; 𝗠𝗥𝗟𝗜𝗧-𝗫𝗗 ; https://i.imgur.com/0jlutg0.jpeg"
+      "value": "𝗔𝗡𝗗𝗬𝗟𝗜𝗧 ; 𝗠𝗥𝗟𝗜𝗧-𝗫𝗗 ; https://i.imgur.com/M8S9JjL.jpeg"
      },
      "CAPTION": {
       "description": "enter your media caption",
@@ -34,7 +39,7 @@
        "BOT_INFO": {
       "description": "Bot info : botname;ownername;imageurl - image or video",
       "required": "false",
-      "value": "𝙈𝙍𝙇𝙄𝙏-𝗫𝗗;𝘼𝙉𝘿𝙔𝙇𝙄𝙏;https://i.imgur.com/KEL7kmY.jpeg"
+      "value": "𝙈𝙍𝙇𝙄𝙏-𝗫𝗗;𝘼𝙉𝘿𝙔𝙇𝙄𝙏;https://i.imgur.com/M8S9JjL.jpeg"
     },
      "ALWAYS_ONLINE": {
       "description": "Bot online online : true",

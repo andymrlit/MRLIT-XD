@@ -8,11 +8,10 @@ src="https://tenor.com/view/school-live-cute-hello-anime-girl-yuki-takeya-gif-14
 
 </div>
         
-## IZUMI-XD Whatsapp Bot
-IZUMI-XD - Simple whatsapp Multi Device bot based on 
-Xasena 
+## 𝙈𝙍𝙇𝙄𝙏-XD Whatsapp Bot
+MRLIT-XD - Simple whatsapp Multi Device bot created by Mrlit Andy 😙
 
-``` Full Open Source```
+``` not open source sorry```
 
 ***
 
@@ -20,7 +19,7 @@ Xasena
 
 1. Fork This Repository
    <br>
-<a href='https://github.com/sataniceypz/Izumi-V2/fork' target="_blank"><img alt='FORK' src='https://img.shields.io/badge/fork-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://github.com/andymrlit/MRLIT-XDfork' target="_blank"><img alt='FORK' src='https://img.shields.io/badge/fork-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 2. Get Session I'D.
 
 ### QR 1
@@ -44,7 +43,7 @@ Xasena
 ***
 * Now Deploy
     <br>
-<a href='https://heroku.com/deploy?template=https://github.com/sataniceypz/Izumi-V2' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://heroku.com/deploy?template=https://github.com/andymrlit/MRLIT-XD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
 ***

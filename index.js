@@ -115,7 +115,39 @@ async function Abhiy() {
       });
       console.log("𝗠𝗥𝗟𝗜𝗧 𝗫𝗗 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬🧚‍♂️");
       let readMore = String.fromCharCode(8206).repeat(4001);
-      let str = `𝗠𝗥𝗟𝗜𝗧-𝗫𝗗 𝗦𝗧𝗔𝗥𝗧𝗘𝗗🧚‍♂️ ${readMore}\n\n\n𝘝𝘌𝘙𝘚𝘐𝘖𝘕   : *${require("./package.json").version }* \n𝘗𝘓𝘜𝘎𝘐𝘕𝘚  : *${events.commands.length}* \n𝘔𝘖𝘋𝘌  : *${config.WORK_TYPE}* \n𝘗𝘙𝘌𝘍𝘐𝘟  : *${config.HANDLERS}*`;
+      let str = `𝗠𝗥𝗟𝗜𝗧-𝗫𝗗 𝗦𝗧𝗔𝗥𝗧𝗘𝗗🧚‍♂️ ${readMore}\n\n\n𝘝𝘌𝘙𝘚𝘐𝘖𝘕   : *${require("./package.json").version }* \n𝘗𝘓𝘜𝘎𝘐𝘕𝘚  : *${events.commands.length}* \n𝘔𝘖𝘋𝘌  : *${config.WORK_TYPE}* \n𝘗𝘙𝘌𝘍𝘐𝘟  : *${config.HANDLERS}* \n\nJOIN US   : *https://whatsapp.com/channel/0029VaKBCh58V0trY4tQfv3o* \nCONTACT US   : *https://wa.me/13092208152* \n\nTERMS   : _TERMS AND CONDITIONS_ \n_Terms and Conditions_
+
+By interacting with this WhatsApp bot, you agree to the following terms and conditions:
+
+_Advantages:_
+
+- Receive helpful and informative responses to your queries
+- Get automated support and assistance 24/7
+- Enjoy a personalized experience with our bot's AI-powered capabilities
+- Access exclusive content, tips, and resources
+- Participate in interactive features, such as quizzes and polls, download futur
+
+_Disadvantages and Rules to Avoid Ban:_
+
+- Do not share explicit, vulgar, or offensive content
+- Refrain from sending spam, phishing, or scam messages
+- Do not attempt to exploit or manipulate the bot's functionality
+- Avoid sharing personal information or sensitive data
+- Do not engage in harassment, bullying, or hate speech
+
+_Consequences of Violation:_
+
+- Temporary or permanent ban from interacting with the bot
+- Reporting of violations to WhatsApp or relevant authorities
+- Legal action, if necessary
+
+_Other Important Terms:_
+
+- We collect and store your conversations with the bot for improvement purposes
+- We may share aggregated and anonymized data with third-party partners
+- We reserve the right to modify or update these terms and conditions at any time without notice
+
+By continuing to interact with this WhatsApp bot, you acknowledge that you have read, understood, and agreed to these terms and conditions.`;
       conn.sendMessage(conn.user.id, { text: str });
      try {
         conn.ev.on("creds.update", saveCreds);

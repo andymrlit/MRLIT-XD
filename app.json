@@ -1,0 +1,76 @@
+{
+  "name": "MRLIT-xd",
+  "description": "MRLIT-XD Multi Device whatsapp bot",
+  "logo": "https://i.imgur.com/Uc0uIkO.jpeg",
+  "keywords": ["whatsapp"],
+  "repository": "https://github.com/andymrlit/MRLIT-XD",
+  "website": "https://github.com/andymrlit/MRLIT-XD",
+  "success_url": "https://bwakalemd-0f433deeafed.herokuapp.com/",
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "ANDYMRLIT session id",
+      "required": true
+    },
+    "LOGS": {
+      "description": "need to show message logs ?",
+      "required": false
+     },
+     "AUDIO_DATA": {
+      "description": "audio data , title;artist;image url",
+      "required": "false",
+      "value": "𝗔𝗡𝗗𝗬𝗟𝗜𝗧 ; 𝗠𝗥𝗟𝗜𝗧-𝗫𝗗 ; https://i.imgur.com/0jlutg0.jpeg"
+     },
+     "CAPTION": {
+      "description": "enter your media caption",
+      "required": "false",
+      "value": "ᴛʜɪs ʙᴏᴛ ᴡᴀs ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀʟɪᴛ ᴀɴᴅʏ"
+    },
+       "STICKER_DATA": {
+      "description": "Sticker pack name, eg : 𝙈𝙍𝙇𝙄𝙏 𝙓𝘿;𝘼𝙉𝘿𝙔",
+      "required": "false",
+      "value": "ᴄᴏᴘʏʀɪɢʜᴛ;ᴀɴᴅʏ"
+    },
+       "BOT_INFO": {
+      "description": "Bot info : botname;ownername;imageurl - image or video",
+      "required": "false",
+      "value": "𝙈𝙍𝙇𝙄𝙏-𝗫𝗗;𝘼𝙉𝘿𝙔𝙇𝙄𝙏;https://i.imgur.com/KEL7kmY.jpeg"
+    },
+     "ALWAYS_ONLINE": {
+      "description": "Bot online online : true",
+      "required": "false",
+      "value": "false"
+    },
+    "SUDO": {
+      "description": "add your bot number here for run mrlit-xd🧚‍♂️",
+      "required": true
+    },
+    "WORK_TYPE": {
+      "description": "bot work mode",
+      "required": "true",
+      "value": "private"
+     },
+    "PREFIX": {
+      "description": "Example 1: ^[.,!#]  example 2 ^ 👈🏻 Handlers disable",
+      "required": true,
+       "value":"^[.,]"
+     },
+    "HEROKU_APP_NAME": {
+      "description": "Heroku app name, same as above entered",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Heroku account api key, https://dashboard.heroku.com/account",
+      "required": true
+     }
+ },
+ "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      },
+      {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      }]
+  }

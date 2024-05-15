@@ -25,7 +25,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }} }, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }} }, {quoted: message })
     }
     );
 
@@ -50,7 +50,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: `*${result.title}*`}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: `*${result.title}*`}, {quoted: message })
     });
 
 // Zeta-XD 
@@ -73,7 +73,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, }, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, }, {quoted: message })
     }
     );
 
@@ -164,6 +164,6 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X.CAPTION)}, {quoted: message})
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X.CAPTION)}, {quoted: message})
     }
     );

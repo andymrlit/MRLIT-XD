@@ -1,5 +1,5 @@
-const X = "*Converted By Mrlit Andy*"
-const R = '_*Need Text*_\n*Example: .gfx andy|mrlit*'
+const X = "*Converted By Izumi-XD*"
+const R = '_*Need Text*_\n*Example: .gfx Izumi|xd*'
 const { command, isPrivate } = require("../lib/");
 const { ephoto, textpro, photooxy } = require("mumaker");
 const tp = "https://textpro.me/"
@@ -23,7 +23,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -43,7 +43,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -63,7 +63,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -83,7 +83,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -103,7 +103,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -123,7 +123,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -143,7 +143,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -163,7 +163,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -183,7 +183,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -203,7 +203,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -223,7 +223,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -243,7 +243,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -263,7 +263,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -283,7 +283,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -303,7 +303,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -323,7 +323,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -343,7 +343,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -363,7 +363,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -383,7 +383,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -403,7 +403,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -423,7 +423,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -443,7 +443,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -463,7 +463,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -483,7 +483,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -503,7 +503,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -523,7 +523,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -543,7 +543,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -563,7 +563,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -583,7 +583,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -603,7 +603,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -623,7 +623,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -643,7 +643,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -663,7 +663,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 command({
@@ -683,7 +683,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (X)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (X)}, {quoted: message })
 });
 
 

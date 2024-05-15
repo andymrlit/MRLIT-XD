@@ -58,7 +58,7 @@ let buff = await m.quoted.download();
 > *Genre* : ${data.genres}          
 > *Release* : ${data.release_date}
 > *YouTube Link* : ${data.youtube}
-> *Spotify Link* : ${data.spotify}\n\n𝐌𝐑𝐋𝐈𝐓-𝐗𝐃`
+> *Spotify Link* : ${data.spotify}\n\n𝐈𝐙𝐔𝐌𝐈-𝐗𝐃`
                    await message.client.sendMessage(message.jid,{ document :{ url: "https://www.mediafire.com/file/n1qjfxjgvt0ovm2/IMG-20240211-WA0086_%25281%2529.pdf/file" }, fileName: "𝗙𝗜𝗡𝗗 𝗥𝗘𝗦𝗨𝗟𝗧" , mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileLength: "999999950", contextInfo: {
       
       mentionedJid: [m.sender],

@@ -34,7 +34,7 @@ command({
     await message.sendMessage("```Pɪɴɢ!```");
     const end = new Date().getTime();
     const ms = end - start;
-    return await message.client.sendMessage(message.jid, { location: { degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name: `Pᴏɴɢ ${ms}ᴍꜱ`, address: "𝚖𝚛𝚕𝚒𝚝-𝚡𝚍"} });
+    return await message.client.sendMessage(message.jid, { location: { degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name: `Pᴏɴɢ ${ms}ᴍꜱ`, address: "Iᴢᴜᴍɪ Xᴅ"} });
 });
 
 /* Copyright (C) 2022 X-Electra.
@@ -225,7 +225,7 @@ Description: ${i.desc}\`\`\``);
         const readMore = String.fromCharCode(8206).repeat(4001);
       let menu = `\n╭━━━〔 ${BOT_INFO.split(";")[0]} 〕━━━┈
     ╭──────────────
-  ☆ │  *BOTNAME*: MRLIT-MD
+  ☆ │  *OWNER*: ${BOT_INFO.split(";")[1]}
   ☆ │  *CREATOR*: AndyMrlit
   ✩ │  *USER*: ${usern}
   ✩ │  *DATE*: ${date}
@@ -276,7 +276,7 @@ mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/M8S9JjL.jpeg" }}, caption: (penu)}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/KEL7kmY.jpeg" }}, caption: (penu)}, {quoted: message })
     }
 }catch(e){
 message.reply(e)
@@ -370,7 +370,7 @@ command(
         try {
           require("./" + plugin_name);
         } catch (e) {
-          fs.unlinkSync("/andymrlit/plugins/" + plugin_name + ".js");
+          fs.unlinkSync("/xasena/plugins/" + plugin_name + ".js");
           return await message.sendMessage("*_Invalid Plugin_*\n ```" + e + "```");
         }
 

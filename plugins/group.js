@@ -9,12 +9,12 @@ command(
     type: "group",
   },
   async (message, match) => {
-    if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+    if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     let num = match || message.reply_message.jid
     if (!num) return await message.reply("*_Need a number/reply/mention!_*");
     let user = num.replace(/[^0-9]/g, "") + "@s.whatsapp.net"
     let admin = await isAdmin(message.jid, message.user, message.client);
-    if (!admin) return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted!_*");
+    if (!admin) return await message.reply("*_I'm not admin_*");
     await message.client.groupParticipantsUpdate(message.jid, [user], "add")
     return await message.client.sendMessage(message.jid, { text: `*_@${user.split("@")[0]}, Added to The Group!_*`, mentions: [user] })
   }
@@ -34,14 +34,14 @@ command(
     type: "group",
   },
   async (message, match) => {
-    if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+    if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     let num = match || message.reply_message.jid
     if (!num) return await message.reply("*_Need a number/reply/mention!_*");
     let user = num.replace(/[^0-9]/g, "") + "@s.whatsapp.net"
     let admin = await isAdmin(message.jid, message.user, message.client);
-    if (!admin) return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted!_*");
+    if (!admin) return await message.reply("*_I'm not admin_*");
     await message.client.groupParticipantsUpdate(message.jid, [user], "remove")
-    return await message.client.sendMessage(message.jid, { text: `*_@${user.split("@")[0]}, the bro was removed sorry for him!_*`, mentions: [user] })
+    return await message.client.sendMessage(message.jid, { text: `*_@${user.split("@")[0]}, Kicked from The Group!_*`, mentions: [user] })
   }
 );
 
@@ -59,11 +59,11 @@ command(
     type: "group",
   },
   async (message, match) => {
-    if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+    if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     let user = message.mention[0] || message.reply_message.jid
     if (!user) return await message.reply("*_Need a number/reply/mention!_*");
     var admin = await isAdmin(message.jid, message.user, message.client);
-    if (!admin) return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted!_*");
+    if (!admin) return await message.reply("*_I'm not admin_*");
     await message.client.groupParticipantsUpdate(message.jid, [user], "promote")
     return await message.client.sendMessage(message.jid, { text: `*_@${user.split("@")[0]}, Is Promoted as Admin!_*`, mentions: [user] })
   }
@@ -83,11 +83,11 @@ command(
     type: "group",
   },
   async (message, match) => {
-    if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+    if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     let user = message.mention[0] || message.reply_message.jid
     if (!user) return await message.reply("*_Need a number/reply/mention!_*");
     var admin = await isAdmin(message.jid, message.user, message.client);
-    if (!admin) return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted!_*");
+    if (!admin) return await message.reply("*_I'm not admin_*");
     await message.client.groupParticipantsUpdate(message.jid, [user], "demote")
     return await message.client.sendMessage(message.jid, { text: `*_@${user.split("@")[0]}, Is no longer an Admin!_*`, mentions: [user] })
   }
@@ -110,8 +110,8 @@ command(
     if (!message.isGroup)
       return await message.reply("*_This command work only in group chats_*");
     if (!isAdmin(message.jid, message.user, message.client))
-      return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted! bro_*");
-    await message.reply("*_Muted 🫢!_*");
+      return await message.reply("*_I'm not admin_*");
+    await message.reply("*_Muted!_*");
     return await client.groupSettingUpdate(message.jid, "announcement");
   }
 );
@@ -133,8 +133,8 @@ command(
     if (!message.isGroup)
       return await message.reply("*_This command work only in groups_*");
     if (!isAdmin(message.jid, message.user, message.client))
-      return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted! bro_*");
-    await message.reply("*_Unmuted 🙂!_*");
+      return await message.reply("*_I'm not admin_*");
+    await message.reply("*_Unmuted!_*");
     return await client.groupSettingUpdate(message.jid, "not_announcement");
   }
 );
@@ -233,7 +233,7 @@ command(
     if (!message.isGroup) return;
     if (config.ANTILINK)
       if (isUrl(match)) {
-        await message.reply("*_Yo, you just got booted from the group, G! Don't come back, we ain't playin' that prohibited link game, fam_*");
+        await message.reply("*_Link detected_*");
         let botadmin = await isAdmin(message.jid, message.user, message.client);
         let senderadmin = await isAdmin(
           message.jid,
@@ -248,7 +248,7 @@ command(
             return await message[config.ANTILINK_ACTION]([message.participant]);
           }
         } else {
-          return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted!_*");
+          return await message.reply("*_I'm not admin_*");
         }
       }
   }
@@ -268,9 +268,9 @@ command(
     type: "group",
   },
   async (message, match) => {
-    if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+    if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     var admin = await isAdmin(message.jid, message.user, message.client);
-    if (!admin) return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted!_*");
+    if (!admin) return await message.reply("*_I'm not admin_*");
     const response = await message.client.groupInviteCode(message.jid)
     await message.reply(`_https://chat.whatsapp.com/${response}_`)
   }
@@ -290,9 +290,9 @@ command(
     type: "group",
   },
   async (message, match) => {
-    if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+    if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     var admin = await isAdmin(message.jid, message.user, message.client);
-    if (!admin) return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted!_*");
+    if (!admin) return await message.reply("*_I'm not admin_*");
     await message.client.groupRevokeInvite(message.jid)
     await message.reply("*_Revoked!_*")
   }
@@ -334,7 +334,7 @@ command(
     type: "group",
   },
   async (message, match) => {
-    if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+    if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     await message.client.groupLeave(message.jid)
   }
 );
@@ -347,9 +347,9 @@ command(
     type: "group",
   },
   async (message, match) => {
-    if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+    if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     var admin = await isAdmin(message.jid, message.user, message.client);
-    if (!admin) return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted!_*");
+    if (!admin) return await message.reply("*_I'm not admin_*");
     await message.client.groupSettingUpdate(message.jid, "locked");
     return await message.sendMessage("*_Group Successfully Locked_*")
     
@@ -370,9 +370,9 @@ command(
     type: "group",
   },
   async (message, match) => {
-    if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+    if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     var admin = await isAdmin(message.jid, message.user, message.client);
-    if (!admin) return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted!_*");
+    if (!admin) return await message.reply("*_I'm not admin_*");
     await message.client.groupSettingUpdate(message.jid, "unlocked")
     return await message.sendMessage("*_Group Successfully Unlocked_*");
   }
@@ -393,11 +393,11 @@ command(
     type: "group",
   },
   async (message, match) => {
-    if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+    if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     match = match || message.reply_message.text
-    if (!match) return await message.reply("*_Need Subject!_*\n*_Example: gname Mrlit-MD Support!_.*")
+    if (!match) return await message.reply("*_Need Subject!_*\n*_Example: gname Ezra-MD Support!_.*")
     var { restrict } = message.client.groupMetadata(message.jid);;
-    if (restrict && !(await isAdmin(message))) return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted!_*");
+    if (restrict && !(await isAdmin(message))) return await message.reply("*_I'm not admin_*");
     await message.client.groupUpdateSubject(message.jid, match)
     return await message.reply("*_Subject updated_*")
   }
@@ -417,11 +417,11 @@ command(
     type: "group",
   },
   async (message, match) => {
-    if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+    if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     match = match || message.reply_message.text
-    if (!match) return await message.reply("*_Need Description!_*\n*_Example: gdesc MRLT-XD Wa BOT!_*")
+    if (!match) return await message.reply("*_Need Description!_*\n*_Example: gdesc Ezra-XD Wa BOT!_*")
     const participants =  await message.client.groupMetadata(message.jid)
-    if (participants && !(await isAdmin(message.jid, message.user, message.client))) return await message.reply("_I'm just a member, homie, ain't no admin, don't get it twisted!_");
+    if (participants && !(await isAdmin(message.jid, message.user, message.client))) return await message.reply("_I'm not admin_");
     await message.client.groupUpdateDescription(message.jid, match)
     return await message.reply("*_Description updated_*")
   }
@@ -441,9 +441,9 @@ command(
     type: "group",
   },
   async (message, match,m) => {
-  if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+  if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     var admin = await isAdmin(message.jid, message.user, message.client);
-    if (!admin) return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted!_*");
+    if (!admin) return await message.reply("*_I'm not admin_*");
     if (!message.reply_message.image)
       return await message.reply("*_Reply to a photo_*");
     let media = await m.quoted.download();
@@ -498,9 +498,9 @@ command(
     type: "group",
   },
   async (message, match,m) => {
-  if (!message.isGroup) return await message.reply("*_Group chat only, homie! Don't try this in PMs, it's a waste of time!_*")
+  if (!message.isGroup) return await message.reply("*_This command only works in group chats_*")
     var admin = await isAdmin(message.jid, message.user, message.client);
-    if (!admin) return await message.reply("*_I'm just a member, homie, ain't no admin, don't get it twisted!_*");
+    if (!admin) return await message.reply("*_I'm not admin_*");
     if (!message.reply_message.image)
       return await message.reply("*_Reply to a photo_*");
 let media = await m.quoted.download();

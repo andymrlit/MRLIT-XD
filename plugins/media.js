@@ -51,7 +51,7 @@ command(
   {
     pattern: "tts",
     fromMe: isPrivate,
-    desc: "google tts by mrlit andy",
+    desc: "google tts by aswin sparky",
     type: "converter",
   },
   async (message, match, m) => {
